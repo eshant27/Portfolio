@@ -6,6 +6,7 @@ import { NavBar } from "@/components/ui/tubelight-navbar";
 
 const navItems = [
   { name: "Home", url: "#home", icon: Home },
+  { name: "Academics", url: "#academics", icon: Home },
   { name: "Projects", url: "#projects", icon: Briefcase },
   { name: "Skills", url: "#skills", icon: Wrench },
   { name: "Contact", url: "#contact", icon: Contact },
@@ -26,7 +27,7 @@ export function Navbar() {
         };
       }).filter(Boolean) as { id: string; offset: number; height: number }[];
 
-      const scrollY = window.scrollY + 100; // Offset for navbar
+      const scrollY = window.scrollY + 100;
 
       for (let i = sections.length - 1; i >= 0; i--) {
         if (scrollY >= sections[i].offset) {
@@ -46,7 +47,7 @@ export function Navbar() {
       items={navItems.map(item => ({
         ...item,
         isActive: activeSection === item.url.replace("#", ""),
-      }))}
+      }))}  
     />
   );
 }

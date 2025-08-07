@@ -6,8 +6,8 @@ import Typewriter from 'typewriter-effect';
 import scrollDownAnimation from '@/public/scroll-down.json';
 import { jetbrainsMono } from '@/app/font';
 import Image from 'next/image';
-import AyushImg from "@/public/Ayush.jpg";
-import AyushImg2 from "@/public/Ayush2.jpeg"
+import EshantImg from "@/public/Eshant.jpg";
+import EshantImg2 from "@/public/Eshant2.jpg"
 import { MapPin } from 'lucide-react';
 import Socials from '../Socials';
 import { InteractiveHoverButton } from '../ui/interactive-hover-button';
@@ -25,8 +25,8 @@ export function Home() {
     
 
     return (
-        <div id='home' className="w-full max-w-4xl flex flex-col items-center justify-center px-6 pt-20 pb-65 sm:min-h-screen relative">
-            <div className="flex flex-col-reverse md:flex-row items-center md:items-start justify-between gap-10 w-full max-w-5xl">
+        <div id='home' className="w-full max-w-4xl flex flex-col items-center justify-center px-6 pt-20 pb-45 sm:min-h-screen relative">
+            <div className="flex flex-col-reverse md:flex-row items-center md:items-start justify-between gap-10 w-full max-w-5xl mt-15">
                 <div className="flex-1">
                     <div className="flex items-center gap-3">
                         <h1 className="text-4xl sm:text-6xl font-bold ">
@@ -80,7 +80,7 @@ export function Home() {
                 >
                     {/* Base image */}
                     <Image
-                        src={AyushImg}
+                        src={EshantImg}
                         alt="Ayush"
                         fill
                         className={`object-cover rounded-full transition-opacity duration-500 ${isHovered ? "opacity-0" : "opacity-100"
@@ -89,8 +89,8 @@ export function Home() {
 
                     {/* Hover image */}
                     <Image
-                        src={AyushImg2}
-                        alt="Ayush Hover"
+                        src={EshantImg2}
+                        alt="Eshant Hover"
                         fill
                         className={`object-cover rounded-full absolute top-0 left-0 transition-opacity duration-500 ${isHovered ? "opacity-100" : "opacity-0"
                             }`}
@@ -100,7 +100,7 @@ export function Home() {
             </div>
 
             {/* Scroll Down Animation */}
-            <div className="absolute bottom-8 left-1/2 -translate-x-1/2 w-14 z-10 hidden md:block">
+            <div className="absolute bottom-3 left-1/2 -translate-x-1/2 w-17 z-10 hidden md:block ">
                 <Lottie animationData={scrollDownAnimation} loop />
             </div>
         </div>

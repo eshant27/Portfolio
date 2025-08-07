@@ -16,7 +16,7 @@ const skills = [
 
 export default function SkillsSection() {
     return (
-        <section id="skills" className={` ${jetbrainsMono.className} flex flex-col gap-10 py-16 px-4`}>
+        <section id="skills" className={` ${jetbrainsMono.className} flex flex-col gap-10 py-16 px-4 pt-26`}>
             <div className="flex flex-col items-center justify-center gap-2">
                 <h1 className="text-4xl md:text-6xl text-center font-bold">
                     My Skills
