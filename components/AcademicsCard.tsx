@@ -6,8 +6,6 @@ interface AcademicsCardProps {
     title: string;
     duration: string;
     description: string;
-    thumbnail: string;
-    techStack: string[];
     gradient: string;
 }
 
@@ -15,8 +13,6 @@ export default function AcademicsCard({
     title,
     description,
     duration,
-    thumbnail,
-    techStack,
     gradient,
 }: AcademicsCardProps) {
     const [isDarkMode, setIsDarkMode] = useState(false);
