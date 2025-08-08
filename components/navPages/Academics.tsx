@@ -34,7 +34,6 @@ const projects = [
 ];
 
 export function Academics() {
-  const [selectedProject, setSelectedProject] = useState<any>(null);
 
   return (
     <div id="academics" className={` ${jetbrainsMono.className} flex flex-col gap-10 items-center justify-center px-4 pb-20  pt-25 w-full max-w-4xl`}>
@@ -46,7 +45,7 @@ export function Academics() {
       </div>
 
       {/* Cards */}
-      <div className={`${jetbrainsMono.className} flex gap-6 `}>
+      <div className={`${jetbrainsMono.className} flex gap-6 flex-col lg:flex-row `}>
         {projects.map((project, index) => (
           <AcademicsCard
             key={index}
@@ -56,12 +55,12 @@ export function Academics() {
       </div>
 
       {/* Modal */}
-      {selectedProject && (
+      {/* {selectedProject && (
         <ProjectModal
           {...selectedProject}
           onClose={() => setSelectedProject(null)}
         />
-      )}
+      )} */}
     </div>
   );
 }
