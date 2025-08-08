@@ -1,7 +1,6 @@
 # 🚀 Eshant Agrahari — Developer Portfolio
 
 Welcome to my first ever portfolio website:  
-🌐 **Live Demo : [ayushdas.vercel.app](https://ayushdas.vercel.app)**  
 This site showcases who I am — developer, creator, and builder — in the simplest yet most impactful way.
 
 ![Portfolio Preview](./public/front.png)
@@ -19,20 +18,8 @@ Hey, I’m **Eshant Agrahari**, currently pursuing B.Tech in Computer Science at
 - 🌓 **Dark / Light Mode** 
 - ⚡ Smooth Scroll-to-section navigation
 - 🧠 **Minimalist Design** with clean layout and shadows
-- ✨ **Animated Navigation** with Framer Motion
-- 📩 Working **Contact Form** via EmailJS + toast feedback
-- 💼 Projects modal with rich details and hover effects
 
 ---
-
-## 🧪 Running Locally
-
-```bash
-git clone https://github.com/Ayushdas1904/portfolio.git
-cd portfolio
-npm install
-npm run dev
-````
 
 ## 📬 Contact Me
 
