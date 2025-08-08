@@ -81,7 +81,7 @@ export function Home() {
                     {/* Base image */}
                     <Image
                         src={EshantImg}
-                        alt="Ayush"
+                        alt="Eshant"
                         fill
                         className={`object-cover rounded-full transition-opacity duration-500 ${isHovered ? "opacity-0" : "opacity-100"
                             }`}

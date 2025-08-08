@@ -3,7 +3,6 @@ import AcademicsCard from "../AcademicsCard";
 import ProjectModal from "../ProjectModal";
 import { jetbrainsMono } from "@/app/font";
 
-import {SiHtml5} from "react-icons/si";
 import { SlGraduation} from "react-icons/sl";
 
 export const techIconMap: Record<string, JSX.Element> = {
@@ -16,19 +15,19 @@ const projects = [
     duration: "2022-Till",
     description: "Currently I am a final-year student at SRMCEM, Lucknow pursuing B.tech from Computer Science Stream where I have excelled many of the techincal tools and skills. Actively building skills through coding challenges and internships, and modern web technologies.",
     techStack: ["html5",],
-    gradient: "#51fbfb, rgb(13, 1, 60)",
+    gradient: "#424a4aff, rgb(13, 1, 60)",
   },
   {
     title: "Secondary",
     duration: "2021",
-    description: "St. Antony's Inter College | 2021 Specialized in Physics, Chemistry, and Mathematics (PCM) under the ICSE board, securing 89% overall. This academic phase developed my problem-solving abilities and deepened my interest in technology.",
+    description: "I completed my 12th from St. Antony's Inter College, Lucknow where I specialized in Physics, Chemistry, and Mathematics (PCM) under the ISC board. Scoring 89% overall, this academic journey strengthened my problem-solving skills and sparked a deeper interest in technology",
     techStack: ["html5",],
     gradient: "#14f195, rgb(13, 1, 60)",
   },
   {
     title: "High School",
     duration: "2019",
-    description: "St. Antony's Inter College | 2019 Achieved a solid academic foundation with a 90% overall score under the Indian Certificate of Secondary Education (ICSE) curriculum. This phase built strong fundamentals across core subjects including Mathematics, Science, and English.",
+    description: "I completed my Class 10th in 2019 from St. Antony's Inter College, achieving a 90% overall score under the Indian Certificate of Secondary Education (ICSE) curriculum. This phase provided a strong academic foundation, especially in core subjects like Mathematics, Science, and English.",
     techStack: ["html5",],
     gradient: "#64e, rgb(13, 1, 60)",
   },

@@ -8,7 +8,7 @@ export default function Footer() {
       className={`${jetbrainsMono.className} w-full text-muted-foreground border-t border-border py-6 px-4 flex flex-col md:flex-row items-center justify-between gap-3 text-sm`}
     >
       <p className="text-center">
-        © {new Date().getFullYear()} Ayush Das. All rights reserved.
+        © {new Date().getFullYear()} Eshant Agrahari. All rights reserved.
       </p>
 
       <div className="flex gap-4 items-center">
@@ -29,7 +29,7 @@ export default function Footer() {
           <FiLinkedin className="w-5 h-5" />
         </a>
         <a
-          href="mailto:ayushdas1904@gmail.com"
+          href="mailto:eshant2711@gmail.com"
           className="hover:text-foreground transition-colors"
         >
           <FiMail className="w-5 h-5" />

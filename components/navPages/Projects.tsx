@@ -5,7 +5,7 @@ import ProjectModal from "../ProjectModal"; // ⬅️ You must have this file
 import { jetbrainsMono } from "@/app/font";
 
 import { FaReact, FaNodeJs } from "react-icons/fa";
-import {SiHtml5, SiCss3, SiMongodb, SiExpress, SiJavascript, SiNextdotjs, SiPostgresql } from "react-icons/si";
+import {SiHtml5, SiCss3, SiMongodb, SiExpress, SiJavascript, SiNextdotjs, SiPostgresql, SiSupabase } from "react-icons/si";
 
 export const techIconMap: Record<string, JSX.Element> = {
   react: <FaReact className="text-cyan-300" />,
@@ -17,12 +17,14 @@ export const techIconMap: Record<string, JSX.Element> = {
   postgres: <SiPostgresql className="text-sky-500" />,
   html5: <SiHtml5 className="text-orange-500" />,
   css3: <SiCss3 className="text-blue-500" />,
+  supabase: <SiSupabase className="text-green-500" />,
+  javascript: <SiJavascript className="text-yellow-500" />,
 };
 
 const projects = [
   {
     title: "Dashboard Panel",
-    description: "A creator brand collaboration website",
+    description: "Admin dashboard for seamless data management",
     thumbnail: "/Dashboard_Panel.png",
     techStack: ["react", "ts",],
     gradient: "#51fbfb, rgb(13, 1, 60)",
@@ -31,7 +33,7 @@ const projects = [
   },
   {
     title: "Weather App",
-    description: "Your personal fitness companion",
+    description: "Instant weather insights in clean, user-friendly design",
     thumbnail: "/weather.jpg",
     techStack: ["html5", "css3", "node"],
     gradient: "#14f195, rgb(13, 1, 60)",
@@ -39,13 +41,13 @@ const projects = [
     live: "https://weather-sphere-nine.vercel.app/",
   },
   {
-    title: "Prolingo",
-    description: "A Duolingo-inspired app for programming languages",
-    thumbnail: "/project3.png",
-    techStack: ["ts", "node", "postgres"],
+    title: "URL_Shortener",
+    description: "A fast and simple tool to shrink your URLs",
+    thumbnail: "/URL-Shortener1.jpg",
+    techStack: ["react", "ts", "supabase"],
     gradient: "#64e, rgb(13, 1, 60)",
-    github: "https://github.com/Ayushdas1904/Hack-5.0-ProLingo",
-    live: "https://prolingo-alpha.vercel.app/",
+    github: "https://github.com/eshant27/URL_Shortener",
+    live: "https://url-shortener-flax-seven.vercel.app/",
   },
 ];
 

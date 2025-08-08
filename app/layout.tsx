@@ -13,7 +13,7 @@ import { Toaster } from "sonner";
 
 
 export const metadata: Metadata = {
-  title: "Ayush Das | Portfolio",
+  title: "Eshant | Portfolio",
   description: "My First Portfolio",
   
 };
